@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplo 7</title>
+  </head>
+  <body>
+    <script>
+      var circulo = {};
+      circulo.raio = 12;
+      circulo.area = function(){
+        return 3.14*this.raio*this.raio;
+      }
+      var retangulo = {
+        altura : 2,
+        largura: 3,
+        area : function(){
+          return this.altura*this.largura;
+        }
+      };
+      console.log(circulo,circulo.area());
+      console.log(retangulo,retangulo.area());
+    </script>
+  </body>
+</html>

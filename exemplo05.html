@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplo 3</title>
+  </head>
+  <body>
+    <script>
+      var a = 2;
+      var quadrado = function(x){
+        return x*x;
+      }
+      var cubo = function(valor){
+        return valor*valor*valor;
+      }
+      function imprime(funcao,valor){
+        console.log(funcao(valor));
+      }
+      imprime(quadrado,a);
+      imprime(cubo,a);
+
+    </script>
+  </body>
+</html>
